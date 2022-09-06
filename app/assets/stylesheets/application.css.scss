@@ -45,9 +45,21 @@ h1, h2, h3 {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
-  &:hover {
+  &:hover {  // sass CSS
     color: white;
     opacity: 75%;
+  }
+}
+
+// Hamburger styles for mobile responsive screens
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {  // sass CSS
+   background-color: #ad5389;
   }
 }
 
